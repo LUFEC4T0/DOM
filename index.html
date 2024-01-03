@@ -7,7 +7,7 @@
     <title>DOM</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="font-mono">
     <header class="header_footer">
         <h2>Ejercicio de DOM</h2>
         <nav>
@@ -16,8 +16,13 @@
             <a href="#">Contact</a>
         </nav>
     </header>
-    <main>
-        <h1 id="h1_id">Datos</h1>
+    <main class="gap-5">
+        <h1 class="font-bold" id="h1_id">Datos</h1>
+        <div id="contenedor" class="flex flex-wrap gap-5 justify-center">
+        </div>
+        <div id="lista">
+            <h2 class="font-bold">Frutas dulces</h2>
+        </div>
     </main>
     <footer class="header_footer">
         <p>MindHub ©</p>
@@ -26,3 +31,4 @@
     <script src="./index.js"></script>
 </body>
 </html>
+
